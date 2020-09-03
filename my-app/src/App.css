@@ -1,0 +1,25 @@
+.container {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 1rem;
+
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border-radius: 1rem;
+}
+
+tr,
+td {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-bottom {
+  padding-top: 5rem;
+}

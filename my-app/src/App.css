@@ -23,3 +23,31 @@ td {
 .text-bottom {
   padding-top: 5rem;
 }
+
+.table {
+  border: 1px solid;
+}
+
+th {
+  background-color: grey;
+}
+
+.buah {
+  background-color: orangered;
+}
+
+.nama {
+  width: 300px;
+}
+
+.harga {
+  width: 150px;
+}
+
+.berat {
+  width: 150px;
+}
+
+.container-buah {
+  width: 40%;
+}

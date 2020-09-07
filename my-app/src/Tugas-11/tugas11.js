@@ -5,7 +5,7 @@ class Timer extends Component {
     return (
       <>
         <h1 style={{ float: "right" }}>
-          hitung mundur: {this.props.countdown}
+          hitung mundur : {this.props.countdown}
         </h1>
       </>
     );

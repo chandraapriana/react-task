@@ -8,8 +8,8 @@ class Clock extends React.Component {
     return (
       <div>
         <h1 style={{ float: "left" }}>
-          sekarang jam {this.props.date && this.props.date.toLocaleTimeString()}
-          .
+          sekarang jam :
+          {this.props.date && this.props.date.toLocaleTimeString()}.
         </h1>
       </div>
     );

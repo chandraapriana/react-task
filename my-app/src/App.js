@@ -7,8 +7,9 @@ import Tugas11 from "./Tugas-11/tugas11.js";
 import Clock from "./Tugas-11/Clock.js";
 import ReactDOM from "react-dom";
 import Timer from "./Tugas-11/tugas11.js";
-import Counter from "./Test/Counter.js";
+
 import TabelFruit from "./Tugas-12/TabelFruit.js";
+import DaftarBuah from "./Tugas-13/DaftarBuah.js";
 
 class App extends Component {
   // constructor(props) {
@@ -44,7 +45,7 @@ class App extends Component {
 
         <Timer countdown={this.state.time} />
         {this.state.time > 0 && <Clock date={this.state.date} />} */}
-        <TabelFruit />
+        <DaftarBuah></DaftarBuah>
       </>
     );
   }

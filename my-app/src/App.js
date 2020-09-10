@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
-import "./App.css";
-import Tugas9 from "./Tugas-9/tugas9.js";
-import Tugas10 from "./Tugas-10/tugas10.js";
-import Tugas11 from "./Tugas-11/tugas11.js";
-import Clock from "./Tugas-11/Clock.js";
-import ReactDOM from "react-dom";
-import Timer from "./Tugas-11/tugas11.js";
+// import "./App.css";
+// import Tugas9 from "./Tugas-9/tugas9.js";
+// import Tugas10 from "./Tugas-10/tugas10.js";
+// import Tugas11 from "./Tugas-11/tugas11.js";
+// import Clock from "./Tugas-11/Clock.js";
+// import ReactDOM from "react-dom";
+// import Timer from "./Tugas-11/tugas11.js";
 
-import TabelFruit from "./Tugas-12/TabelFruit.js";
-import DaftarBuah from "./Tugas-13/DaftarBuah.js";
+// import TabelFruit from "./Tugas-12/TabelFruit.js";
+// import DaftarBuah from "./Tugas-13/DaftarBuah.js";
 
+import DaftarBuah from "./Tugas-14/DaftarBuah";
 class App extends Component {
   // constructor(props) {
   //   super(props);

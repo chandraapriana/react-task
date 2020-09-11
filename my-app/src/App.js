@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./Tugas-15/Routes.js";
+import Home from "./Tugas-15/Home.js";
 // import "./App.css";
 // import Tugas9 from "./Tugas-9/tugas9.js";
 // import Tugas10 from "./Tugas-10/tugas10.js";
@@ -41,12 +44,15 @@ class App extends Component {
   render() {
     return (
       <>
+        <Router>
+          <Home></Home>
+          <Routes />
+        </Router>
         {/* <Tugas9 />
         <Tugas10 />
 
         <Timer countdown={this.state.time} />
         {this.state.time > 0 && <Clock date={this.state.date} />} */}
-        <DaftarBuah></DaftarBuah>
       </>
     );
   }

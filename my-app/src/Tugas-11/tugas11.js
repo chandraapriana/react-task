@@ -4,9 +4,7 @@ class Timer extends Component {
   render() {
     return (
       <>
-        <h1 style={{ float: "right" }}>
-          hitung mundur : {this.props.countdown}
-        </h1>
+        <h1 style={{}}>hitung mundur : {this.props.countdown}</h1>
       </>
     );
   }
